@@ -1,0 +1,18 @@
+body { 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Big Shoulders Text', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    background: #38c51c;
+    background: -moz-linear-gradient(60deg, #38c51c 0%, #6ecca0 100%);
+    background: -webkit-linear-gradient(60deg, #38c51c 0%, #6ecca0 100%);
+    background: linear-gradient(60deg, #38c51c 0%, #6ecca0 100%);
+    filter:  progid:DXITransform.Microsoft.gradient(startColorstr ='#38c51c', endColorstr = '#6ecca0');
+}
+
+.text-center{
+    text-align: center;
+  }

@@ -1,0 +1,11 @@
+<div id="divForm" *ngIf="tarefaService.modo == 'addT'">
+    <form [formGroup]="form">
+        <h1 class="text-center">Nova tarefa: </h1>
+        <input type="text" placeholder="Título da tarefa" maxlength="60" formControlName="stringTarefa">
+        <small class="danger" *ngIf="form.controls.stringTarefa.invalid && !form.controls.stringTarefa.pristine">Este campo deve conter entre 3 e 60 caracteres</small>
+        <p class="text-center">
+            <button class="bSalvar" [disabled]="form.invalid" (click)="botaoSalvar()">Salvar</button>
+        </p>
+    </form>
+</div>
+<button class="bSalvar" (click)="tarefaService.alteraModo('listT')" *ngIf="tarefaService.modo == 'addT'">Cancelar</button>

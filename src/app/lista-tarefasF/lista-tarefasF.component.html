@@ -1,0 +1,18 @@
+<ul *ngIf="tarefaService.modo == 'listT'">
+    <p *ngIf="tarefaService.listaTarefas.length == 0"><small>Você não possui nenhuma tarefa !</small></p>
+    <li *ngFor="let xTarefa of tarefaService.listaTarefas">
+        <mat-checkbox *ngIf="xTarefa.feita == true" [checked]="checkModeBox"></mat-checkbox>
+        {{ xTarefa.stringTarefa }}
+        <button *ngIf="xTarefa.feita == false" (click)="botaoConcluir(xTarefa)">Concluida</button>
+        <button (click)="botaoApagar(xTarefa)">Apagar</button>
+    </li>
+</ul>
+<button class="bAdicionarTarefa" (click)="tarefaService.alteraModo('addT')" *ngIf="tarefaService.modo == 'listT'">Adicionar tarefa</button>
+
+<!--
+    *DATA BINDING IN ANGULAR 8*
+    {{}}:String interpolation.
+    []: Property Binding.
+    (): Even Binding.
+    [()]: Two-Way-Binding.
+-->

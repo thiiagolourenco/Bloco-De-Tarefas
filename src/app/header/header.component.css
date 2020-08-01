@@ -1,0 +1,20 @@
+.titulo{
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  font-size: 5em;
+  text-shadow: 3px 5px #000;
+}
+
+.icon{
+  color: #fff;
+  text-shadow: 3px 5px #000;
+}
+
+
+button{
+  cursor: pointer;
+}
+
+.space {
+  flex: 1 1 auto;
+}

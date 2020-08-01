@@ -1,0 +1,45 @@
+ul{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    list-style:none;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+}
+
+li{
+    padding: 15px;
+    margin: 10px;
+    font-size: 1em;
+    font-style: italic;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.20);
+}
+
+li>button{
+    border: none;
+    background: #fff;
+    font-size: 1em;
+    float: right;
+    opacity: 0.6;
+    transition: opacity 0.75s;
+}
+
+/*Isso é pra quando a pessoa tiver com o mouse em cima. 
+ *Aí a opacidade vai aumentando gradativamente.*/
+li>button:hover{
+    opacity: 1;
+    transition: opacity 0.75s
+}
+
+.bAdicionarTarefa{
+    cursor: pointer;
+    background: #000;
+    border: none;
+    padding: 20px;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1em;
+    padding-left: 50px;
+    padding-right: 50px;
+}
