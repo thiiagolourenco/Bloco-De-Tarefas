@@ -1,4 +1,4 @@
-# FirstProject
+# Projeto inicial do treinamento Angular com objetivo de criar um bloco de tarefas.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.10.
 
