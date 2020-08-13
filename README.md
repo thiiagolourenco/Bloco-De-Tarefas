@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Angular" title="Angular" src="./favicon.ico" width="50px" />
+    <img alt="Angular" title="Angular" src="./src/favicon.ico" width="50px" />
 </h1>
 
 <p align="center">
@@ -68,11 +68,8 @@ $ cd proffy
 ### Rodando a aplicação
 
 1. Server de desenvolvimento: Execute `ng serve` para usar o server de desenvolvimetno. Navegue para `http://localhost:4200/`. As mudanças são aplicadas automaticamente.
-<br>
 2. Build: Execute `ng build` para buildar o projeto. Os artefatos da build estarão na pasta `dist/`. Você pode usar a flag `--prod` para realizar a build de produção.
-<br>
 3. Rodar testes unitários: Execute `ng test` para executar os testes via [Karma](https://karma-runner.github.io).
-<br>
 4. Rodar testes ponta a ponta: Execute `ng e2e` para executar os testes via [Protractor](http://www.protractortest.org/).
 
 ## 🤔 Como contribuir
