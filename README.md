@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Angular" title="Angular" src="./src/favicon.ico" width="50px" />
+    <img alt="Angular" title="Angular" src="./src/favicon.ico" width="20px" />
 </h1>
 
 <p align="center">
@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/) (Back-end),
 - [Angular CLI](https://github.com/angular/angular-cli) version 8.3.10.
-- TypeScript, HTML e CSS (Front-end).
+- [TypeScript, HTML e CSS](https://www.typescriptlang.org/) (Front-end).
 
 ## 💻 Projeto
 
