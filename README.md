@@ -58,10 +58,10 @@ Comece realizando um clone deste projeto, se preferir você também pode baixar 
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/thiiagolourenco/Proffy
+$ git clone https://github.com/thiiagolourenco/Bloco-De-Tarefas
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd proffy
+$ cd Bloco-De-Tarefas
 ```
 
 ### Rodando a aplicação
